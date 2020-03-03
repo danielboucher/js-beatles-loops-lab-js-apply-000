@@ -16,7 +16,7 @@ var solution = [];
 
 function theBeatlesPlay() {
   for (var i = 0; i < combined.length; i++) {
-    console.log(theBeatlesPlay(0) + " plays " + theBeatlesPlay(4) + "."]);
+    console.log(theBeatlesPlay(0) + " plays " + theBeatlesPlay(4) + ".");
   }
 }
 
