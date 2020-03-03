@@ -14,7 +14,7 @@ var combined = musicians.concat(instruments);
 var solution = [];
 
 
-function theBeatlesPLay() {
+function theBeatlesPlay() {
   for (var i = 0; i < combined.length; i++) {
     console.log(solution[combined(0) + " plays " + combined(4) + "."]);
   }
