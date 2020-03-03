@@ -1,12 +1,24 @@
 // add solution here
 // * Create a variable with an empty array.
-var solution = [];
-let musicians = [John, Paul, George, Ringo];
-let instuments = [Guitar, Piano, Bass, Drums];
+// var solution = [];
+// let musicians = [John, Paul, George, Ringo];
+// let instuments = [Guitar, Piano, Bass, Drums];
+//
+// function
+// for (var musicians = 0; i <= length.musicians - 1; musicians++);
+// console.log(musicians);
 
-function
-for (var musicians = 0; i <= length.musicians - 1; musicians++);
-console.log(musicians);
+var musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star"];
+var instruments = ["rhythm guitar", "bass guitar", "lead guitar", "drums"];
+var combined = musicians.concat(instruments);
+var solution = [];
+
+
+function theBeatlesPLay() {
+  for (var i = 0; i < combined.length; i++) {
+    console.log(solution[combined(0) + " plays " + combined(4) + "."]);
+  }
+}
 
 // * Use a `for loop`, which iterates over the array of musicians. Be careful
 //   about what value you set your `counter` variable to store. (Hint: Think
